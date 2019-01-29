@@ -1,0 +1,40 @@
+.box {
+    height: 200px;
+    width: 200px;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: yellow;
+    float: right;
+}
+
+.box3 {
+    background-color: green;
+}
+
+.box4 {
+    background-color: blue;
+    float: right;
+}
+
+.box1:hover {
+    background-color: purple;
+}
+
+.box2:active {
+    background-color: palevioletred;
+}
+
+.box3:hover {
+    width: 600px;
+    transition: 0.2s ease;
+}
+
+.box4:hover{
+    width: 50px;
+    transition: 0.2s ease;
+}
